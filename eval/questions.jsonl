@@ -1,0 +1,12 @@
+{"id":"q01","question":"What is the refund window after purchase?","answerable":true,"source":"refunds.md","phrase":"14 calendar days"}
+{"id":"q02","question":"Which payment method receives approved refunds?","answerable":true,"source":"refunds.md","phrase":"original payment method"}
+{"id":"q03","question":"What are the customer support hours?","answerable":true,"source":"support.md","phrase":"09:00 to 17:00 UTC"}
+{"id":"q04","question":"What is the first response target for enterprise support tickets?","answerable":true,"source":"support.md","phrase":"2 working hours"}
+{"id":"q05","question":"How long are application audit logs retained?","answerable":true,"source":"data_handling.md","phrase":"90 days"}
+{"id":"q06","question":"When are temporary document uploads deleted?","answerable":true,"source":"data_handling.md","phrase":"24 hours"}
+{"id":"q07","question":"What does a production release require?","answerable":true,"source":"deployment.md","phrase":"passing test suite"}
+{"id":"q08","question":"Can viewer roles change workspace settings?","answerable":true,"source":"data_handling.md","phrase":"cannot change workspace settings"}
+{"id":"q09","question":"What is the capital city of Australia?","answerable":false}
+{"id":"q10","question":"Who is the chief executive officer?","answerable":false}
+{"id":"q11","question":"What was Northstar revenue in 2025?","answerable":false}
+{"id":"q12","question":"Which planet has the most moons?","answerable":false}

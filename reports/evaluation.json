@@ -1,0 +1,122 @@
+{
+  "fixture": "12 authored questions about fictional sample policies; not an independent benchmark",
+  "mode": "offline extractive",
+  "cases": 12,
+  "answerable": 8,
+  "unanswerable": 4,
+  "retrieval_recall_at_3": 1.0,
+  "answerable_expected_phrase_rate": 1.0,
+  "unanswerable_abstention_rate": 1.0,
+  "citation_id_validity_rate": 1.0,
+  "results": [
+    {
+      "id": "q01",
+      "answerable": true,
+      "retrieval_hit": true,
+      "correct_abstention": true,
+      "expected_phrase_found": true,
+      "citation_ids_valid": true,
+      "answer": "Refund requests are accepted within 14 calendar days after purchase. [b3257a8563c9]\nCustomers must include the order number and the purchase email in a refund request. [b3257a8563c9]"
+    },
+    {
+      "id": "q02",
+      "answerable": true,
+      "retrieval_hit": true,
+      "correct_abstention": true,
+      "expected_phrase_found": true,
+      "citation_ids_valid": true,
+      "answer": "Approved refunds are returned to the original payment method within 5 working days. [b3257a8563c9]"
+    },
+    {
+      "id": "q03",
+      "answerable": true,
+      "retrieval_hit": true,
+      "correct_abstention": true,
+      "expected_phrase_found": true,
+      "citation_ids_valid": true,
+      "answer": "Customer support operates Monday to Friday from 09:00 to 17:00 UTC. [149e098bb62d]\nThe target first response time for standard support tickets is 8 working hours. [a741c95f8d31]"
+    },
+    {
+      "id": "q04",
+      "answerable": true,
+      "retrieval_hit": true,
+      "correct_abstention": true,
+      "expected_phrase_found": true,
+      "citation_ids_valid": true,
+      "answer": "Enterprise support tickets have a target first response time of 2 working hours. [a741c95f8d31]\nThe target first response time for standard support tickets is 8 working hours. [a741c95f8d31]"
+    },
+    {
+      "id": "q05",
+      "answerable": true,
+      "retrieval_hit": true,
+      "correct_abstention": true,
+      "expected_phrase_found": true,
+      "citation_ids_valid": true,
+      "answer": "Application audit logs are retained for 90 days. [0a748aafbe04]"
+    },
+    {
+      "id": "q06",
+      "answerable": true,
+      "retrieval_hit": true,
+      "correct_abstention": true,
+      "expected_phrase_found": true,
+      "citation_ids_valid": true,
+      "answer": "Temporary document uploads are deleted after 24 hours. [0a748aafbe04]"
+    },
+    {
+      "id": "q07",
+      "answerable": true,
+      "retrieval_hit": true,
+      "correct_abstention": true,
+      "expected_phrase_found": true,
+      "citation_ids_valid": true,
+      "answer": "A production release requires a passing test suite and approval from one maintainer. [37e13e286bb2]"
+    },
+    {
+      "id": "q08",
+      "answerable": true,
+      "retrieval_hit": true,
+      "correct_abstention": true,
+      "expected_phrase_found": true,
+      "citation_ids_valid": true,
+      "answer": "Viewer roles can read documents but cannot change workspace settings. [368d791706e5]\nWorkspace administrators can invite members and assign viewer or editor roles. [368d791706e5]"
+    },
+    {
+      "id": "q09",
+      "answerable": false,
+      "retrieval_hit": null,
+      "correct_abstention": true,
+      "expected_phrase_found": null,
+      "citation_ids_valid": true,
+      "answer": "I could not find enough evidence in these documents to answer that question."
+    },
+    {
+      "id": "q10",
+      "answerable": false,
+      "retrieval_hit": null,
+      "correct_abstention": true,
+      "expected_phrase_found": null,
+      "citation_ids_valid": true,
+      "answer": "I could not find enough evidence in these documents to answer that question."
+    },
+    {
+      "id": "q11",
+      "answerable": false,
+      "retrieval_hit": null,
+      "correct_abstention": true,
+      "expected_phrase_found": null,
+      "citation_ids_valid": true,
+      "answer": "I could not find enough evidence in these documents to answer that question."
+    },
+    {
+      "id": "q12",
+      "answerable": false,
+      "retrieval_hit": null,
+      "correct_abstention": true,
+      "expected_phrase_found": null,
+      "citation_ids_valid": true,
+      "answer": "I could not find enough evidence in these documents to answer that question."
+    }
+  ],
+  "llm_evaluated": false
+}
